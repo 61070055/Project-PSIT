@@ -4,7 +4,7 @@ users_data1 = []
 subs_data1 = []
 views_data1 = []
 
-with open('../Database/news.txt') as csvfile:
+with open('../Database/auto.txt') as csvfile:
     readfile = csv.reader(csvfile, delimiter=',')
 
     for line in readfile:
